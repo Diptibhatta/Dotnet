@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="12.properties.cs" />
+    <Compile Remove="16.methodoverrriding.cs" />
+    <Compile Remove="Q12Properties.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="12.properties.cs" />
+    <None Include="16.methodoverrriding.cs" />
+  </ItemGroup>
+	
+
+</Project>
